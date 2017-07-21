@@ -77,7 +77,7 @@ section {
   margin-bottom: 1.2rem;
 }
 .header {
-  margin-bottom: 1em;
+  margin-bottom: 3rem;
 }
 
 /* Header
@@ -120,9 +120,15 @@ body > nav a {
 
 /* News
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* section#news article .header {
-  text-align: center;
-} */
+section#news article {
+  margin-bottom: 3rem;
+}
+section#news article h3 {
+  font-size: 3rem;
+}
+section#news article .header {
+  text-align: left;
+}
 
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
