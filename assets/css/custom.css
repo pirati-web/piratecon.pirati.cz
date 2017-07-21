@@ -1,0 +1,214 @@
+@font-face {
+  font-family: "Bebas Neue Bold";
+  src: url("../fonts/bebas-neue-bold.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/bebas-neue-bold.eot#iefix") format("embedded-opentype"), /* IE6-IE8 */
+       url("../fonts/bebas-neue-bold.woff") format("woff"), /* Modern Browsers */
+       url("../fonts/bebas-neue-bold.ttf")  format("truetype"), /* Safari, Android, iOS */
+}
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Open Sans", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 1.6em;
+}
+h1, h3, h5 {
+  color: #f68712;
+  font-weight: 500;
+}
+h2, h4, h6 {
+  color: #399fdf;
+  font-weight: 300;
+}
+.u-mirror-horizontally {
+    display: inline-block;
+    transform: matrix(-1, 0, 0, 1, 0, 0) !important;
+}
+/* Forms
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  color: #000;
+}
+.button {
+  border-radius: 100px;
+}
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #6b3a17;
+  border-color: #6b3a17; }
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #f68712;
+  border-color: #f68712; }
+textarea {
+  width: 100%;
+  height: 20rem;
+}
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+section {
+  padding: 7rem 0 6rem;
+  text-align: justify;
+}
+.section-heading,
+.section-description {
+  margin-bottom: 1.2rem;
+}
+.header {
+  margin-bottom: 1em;
+}
+
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body > header {
+  text-align: center;
+  padding: 3rem 0 1rem;
+  color: #000;
+  background-color: #fff;
+}
+body > header h1 {
+  font-family: "Bebas Neue Bold", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000;
+  margin-top: 2rem;
+}
+body > header .logo {
+  /* display: inline-block; */
+  width: 20rem;
+  height: 20rem;
+  background-image: url("../images/logo.svg");
+  background-size: cover;
+  background-position: center;
+}
+body > header p {
+  font-size: 2.21em;
+}
+/* Navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body > nav {
+  text-align: center;
+  border-top: .1rem solid #6b3a17;
+  border-bottom: .1rem solid #6b3a17;
+  padding: 1rem 0 1rem;
+}
+body > nav a {
+  margin: 1rem;
+}
+
+/* News
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* section#news article .header {
+  text-align: center;
+} */
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body > footer {
+  text-align: center;
+  padding: 3rem 0 1rem;
+  color: #777;
+  font-size: 0.8em;
+}
+
+/* Values
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#basic_info {
+  background-image: url("../images/info-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.value {
+  text-align: center;
+}
+.value-multiplier {
+  margin-bottom: .5rem;
+}
+.value-heading {
+  margin-bottom: .3rem;
+}
+.value-description {
+  opacity: .8;
+  font-weight: 300;
+}
+
+/* Categories
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.categories {
+  color: #fff;
+}
+.categories .section-description {
+  margin-bottom: 4rem;
+}
+
+/* Bigger than 550 */
+@media (min-width: 550px) {
+  section {
+    padding: 8rem 0 7rem;
+  }
+  body > header {
+    padding: 3rem 0 2rem;
+    /*text-align: left;*/
+    min-height: 180px;
+  }
+  .hero-heading {
+    font-size: 4.8rem;
+  }
+}
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+  .hero-heading {
+    font-size: 5.2rem;
+  }
+  section {
+    padding: 10rem 0 8rem;
+  }
+  body > header {
+    padding: 4rem 0 3rem;
+    min-height: 190px;
+  }
+  .section-description {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .categories {
+    padding: 15rem 0 8rem;
+  }
+}
+
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+  section {
+    padding: 15rem 0 11rem;
+  }
+  body > header {
+    padding: 6rem 0 4rem;
+  }
+  .hero-heading {
+    font-size: 6.0rem;
+  }
+}
