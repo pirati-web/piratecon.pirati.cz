@@ -13,10 +13,16 @@ body {
   font-family: "Open Sans", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1.6em;
 }
+
+h1, h3, h5, h2, h4, h6 {
+  margin-bottom: 1rem;
+}
+
 h1, h3, h5 {
   color: #f68712;
   font-weight: 500;
 }
+
 h2, h4, h6 {
   color: #399fdf;
   font-weight: 300;
@@ -24,6 +30,10 @@ h2, h4, h6 {
 .u-mirror-horizontally {
     display: inline-block;
     transform: matrix(-1, 0, 0, 1, 0, 0) !important;
+}
+
+pre, blockquote, dl, figure, table, p, ul, ol, form {
+  margin-bottom: 1rem;
 }
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -84,7 +94,7 @@ section {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 body > header {
   text-align: center;
-  padding: 3rem 0 1rem;
+  padding: 1rem 0 1rem;
   color: #000;
   background-color: #fff;
 }
@@ -97,14 +107,14 @@ body > header h1 {
 }
 body > header .logo {
   /* display: inline-block; */
-  width: 20rem;
-  height: 20rem;
+  width: 15rem;
+  height: 15rem;
   background-image: url("../images/logo.svg");
   background-size: cover;
   background-position: center;
 }
 body > header p {
-  font-size: 2.21em;
+  font-size: 1.7em;
 }
 /* Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -141,7 +151,7 @@ body > footer {
 
 /* Values
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-#basic_info {
+#teaser {
   background-image: url("../images/info-bg.jpg");
   background-size: cover;
   background-position: center;
@@ -172,7 +182,7 @@ body > footer {
 /* Bigger than 550 */
 @media (min-width: 550px) {
   section {
-    padding: 8rem 0 7rem;
+    padding: 4rem 0 3rem;
   }
   body > header {
     padding: 3rem 0 2rem;
@@ -190,10 +200,10 @@ body > footer {
     font-size: 5.2rem;
   }
   section {
-    padding: 10rem 0 8rem;
+    padding: 7rem 0 4rem;
   }
   body > header {
-    padding: 4rem 0 3rem;
+    padding: 3rem 0 2rem;
     min-height: 190px;
   }
   .section-description {
@@ -202,19 +212,19 @@ body > footer {
     margin-right: auto;
   }
   .categories {
-    padding: 15rem 0 8rem;
+    padding: 11rem 0 6rem;
   }
 }
 
 /* Bigger than 1000 */
 @media (min-width: 1000px) {
   section {
-    padding: 15rem 0 11rem;
+    padding: 10rem 0 6rem;
   }
   body > header {
-    padding: 6rem 0 4rem;
+    padding: 4rem 0 2rem;
   }
   .hero-heading {
-    font-size: 6.0rem;
+    font-size: 5.0rem;
   }
 }
