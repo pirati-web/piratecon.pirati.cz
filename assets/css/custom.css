@@ -35,6 +35,10 @@ h2, h4, h6 {
 pre, blockquote, dl, figure, table, p, ul, ol, form {
   margin-bottom: 1rem;
 }
+
+.button {
+  color: #fff;
+}
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 input[type="email"],
