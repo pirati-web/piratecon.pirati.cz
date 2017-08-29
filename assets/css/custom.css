@@ -142,8 +142,8 @@ body > nav a {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 section#agenda article {
   margin-bottom: 1.6rem;
-  border: .1rem solid #6b3a17;
-  border-radius: 4rem;
+  border: .25rem solid #6b3a17;
+  border-radius: 1.6rem;
   padding: 1.5rem 4rem 1rem 4rem;
 }
 /*section#agenda article h3 {
