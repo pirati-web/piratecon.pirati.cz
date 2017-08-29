@@ -156,6 +156,7 @@ section#agenda article .header {
 
 section#agenda article .header h4, section#agenda article .header h5 {
   font-size: 1.6rem;
+  font-weight: 700;
 }
 
 /* Footer
