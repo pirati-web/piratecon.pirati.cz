@@ -39,6 +39,10 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 .button {
   color: #fff;
 }
+
+.vip {
+  color: #f68712;
+}
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 input[type="email"],
