@@ -138,16 +138,25 @@ body > nav a {
   margin: 1rem;
 }
 
-/* News
+/* agenda
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-section#news article {
-  margin-bottom: 3rem;
+section#agenda article {
+  margin-bottom: 1.6rem;
+  border: .1rem solid #6b3a17;
+  border-radius: 4rem;
+  padding: 1.5rem 4rem 1rem 4rem;
 }
-section#news article h3 {
+/*section#agenda article h3 {
   font-size: 3rem;
-}
-section#news article .header {
+}*/
+section#agenda article .header {
   text-align: left;
+  margin-bottom: 0;
+}
+
+section#agenda article .header h4, section#agenda article .header h5 {
+  font-size: 1.6rem;
+  font-weight: 700;
 }
 
 /* Footer
