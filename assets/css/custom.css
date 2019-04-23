@@ -8,7 +8,7 @@
 /* Shared
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 body {
-  background-color: #000;
+  background-color: #646464;
   color: #fff;
   font-family: "Open Sans", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1.6em;
@@ -19,12 +19,12 @@ h1, h3, h5, h2, h4, h6 {
 }
 
 h1, h3, h5 {
-  color: #f68712;
+  color: #fff;
   font-weight: 500;
 }
 
 h2, h4, h6 {
-  color: #399fdf;
+  color: #f4db77;
   font-weight: 300;
 }
 .u-mirror-horizontally {
@@ -58,6 +58,8 @@ select {
 }
 .button {
   border-radius: 100px;
+  background-color: #000;
+  border-color: #000;
 }
 .button.button-primary,
 button.button-primary,
@@ -65,8 +67,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #6b3a17;
-  border-color: #6b3a17; }
+  background-color: #465c83;
+  border-color: #465c83; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -87,7 +89,7 @@ textarea {
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 section {
-  padding: 7rem 0 6rem;
+  padding: 4rem 0 6rem;
   text-align: justify;
 }
 .section-heading,
@@ -105,10 +107,11 @@ body > header {
   padding: 1rem 0 1rem;
   color: #000;
   /*background-color: #fff;*/
-  background-image: url('../images/cover.png');
+  background-image: url('../images/cover.jpg');
+  background-size: cover;
   background-position: center;
 }
-body > header h1 {
+body > header h2 {
   font-family: "Bebas Neue Bold", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -130,8 +133,8 @@ body > header p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 body > nav {
   text-align: center;
-  border-top: .1rem solid #6b3a17;
-  border-bottom: .1rem solid #6b3a17;
+  border-top: .1rem solid #646464;
+  border-bottom: .1rem solid  #646464;
   padding: 1rem 0 1rem;
 }
 body > nav a {
@@ -201,7 +204,7 @@ body > footer {
 /* Bigger than 550 */
 @media (min-width: 550px) {
   section {
-    padding: 4rem 0 3rem;
+    padding: 3rem 0 2rem;
   }
   body > header {
     padding: 3rem 0 2rem;
@@ -219,7 +222,7 @@ body > footer {
     font-size: 5.2rem;
   }
   section {
-    padding: 7rem 0 4rem;
+    padding: 4rem 0 4rem;
   }
   body > header {
     padding: 3rem 0 2rem;
@@ -238,7 +241,7 @@ body > footer {
 /* Bigger than 1000 */
 @media (min-width: 1000px) {
   section {
-    padding: 10rem 0 6rem;
+    padding: 4rem 0 2rem;
   }
   body > header {
     padding: 4rem 0 2rem;
@@ -246,4 +249,14 @@ body > footer {
   .hero-heading {
     font-size: 5.0rem;
   }
+}
+.button:hover {
+   background-color: green;
+   color:white;
+   border-color: green;
+}
+@media (max-width: 550px) {
+body > header {
+	min-height: 170px;
+}
 }
