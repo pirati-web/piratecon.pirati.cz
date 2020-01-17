@@ -8,8 +8,8 @@
 /* Shared
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 body {
-  background-color: #646464;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   font-family: "Open Sans", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1.6em;
 }
@@ -19,7 +19,7 @@ h1, h3, h5, h2, h4, h6 {
 }
 
 h1, h3, h5 {
-  color: #fff;
+  color: #000;
   font-weight: 500;
 }
 
@@ -43,6 +43,13 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 .vip {
   color: #f68712;
 }
+
+/* odkazy cerno */
+a {
+  color: #000; }
+a:hover {
+  color: #000; }
+
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 input[type="email"],
@@ -67,7 +74,7 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #465c83;
+  background-color: #5867ac;
   border-color: #465c83; }
 .button.button-primary:hover,
 button.button-primary:hover,
