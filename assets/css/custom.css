@@ -24,7 +24,7 @@ h1, h3, h5 {
 }
 
 h2, h4, h6 {
-  color: #f4db77;
+  color: #a5325b;
   font-weight: 300;
 }
 .u-mirror-horizontally {
@@ -74,8 +74,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #5867ac;
-  border-color: #465c83; }
+  background-color: #a5325b;
+  border-color: #a5325b; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -87,8 +87,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #f68712;
-  border-color: #f68712; }
+  background-color: #aaa;
+  border-color: #aaa; }
 textarea {
   width: 100%;
   height: 20rem;
@@ -114,7 +114,7 @@ body > header {
   padding: 1rem 0 1rem;
   color: #000;
   /*background-color: #fff;*/
-  background-image: url('../images/cover.jpg');
+  background-image: url('../images/header.svg');
   background-size: cover;
   background-position: center;
 }
