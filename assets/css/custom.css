@@ -24,7 +24,7 @@ h1, h3, h5 {
 }
 
 h2, h4, h6 {
-  color: #a5325b;
+  color: #333;
   font-weight: 300;
 }
 .u-mirror-horizontally {
@@ -46,9 +46,11 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 
 /* odkazy cerno */
 a {
-  color: #000; }
+  color: #a5325b; 
+  text-decoration: none;  
+}
 a:hover {
-  color: #000; }
+  color: #666; }
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
