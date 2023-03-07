@@ -270,8 +270,3 @@ body > header {
 	min-height: 170px;
 }
 }
-table,tr,td {
-  border: 1px none;
-  padding: 5px;
-  margin: 0px;
-}
