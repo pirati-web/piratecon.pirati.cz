@@ -46,8 +46,8 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 
 /* odkazy cerno */
 a {
-  color: #a5325b; 
-  text-decoration: none;  
+  color: #40a000;
+  text-decoration: none;
 }
 a:hover {
   color: #666; }
