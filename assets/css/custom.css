@@ -117,7 +117,7 @@ body > header {
   color: #000;
   /*background-color: #fff;*/
   background-image: url('../images/piratecon.png');
-  background-size: 70% auto;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
