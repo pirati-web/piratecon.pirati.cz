@@ -270,8 +270,19 @@ body > header {
 	min-height: 170px;
 }
 }
+
 table,tr,td {
   border: 1px none;
   padding: 5px;
   margin: 0px;
+}
+
+hr.header {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+  border-top: 1px solid #b0b0b0;
+  border-bottom: none;
 }
