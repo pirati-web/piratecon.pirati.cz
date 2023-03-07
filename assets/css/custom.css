@@ -117,8 +117,9 @@ body > header {
   color: #000;
   /*background-color: #fff;*/
   background-image: url('../images/piratecon.png');
-  background-size: cover;
+  background-size: 70% auto;
   background-position: center;
+  background-repeat: no-repeat;
 }
 body > header h2 {
   font-family: "Bebas Neue Bold", sans-serif;
