@@ -277,6 +277,10 @@ table,tr,td {
   margin: 0px;
 }
 
+td:nth-child(2) {  
+  color: #808080;
+}
+
 hr.header {
   margin-top: 0px;
   margin-bottom: 10px;
