@@ -131,7 +131,7 @@ body > header .logo {
   /* display: inline-block; */
   width: 15rem;
   height: 15rem;
-  background-image: url("../images/logo.svg");
+  background-image: url("../images/piratecon.png");
   background-size: cover;
   background-position: center;
 }
