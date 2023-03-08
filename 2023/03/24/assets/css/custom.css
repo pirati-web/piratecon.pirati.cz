@@ -50,7 +50,26 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #666; }
+  color: #666;
+}
+a.blacklink {
+  color: #000000;
+  text-decoration: none;
+}
+a.blacklink:hover {
+  color: #606060;
+  text-decoration: none;
+}
+a.yellowlink {
+  color: #b09000;
+  text-decoration: none;
+}
+a.blacklink:hover {
+  color: #606060;
+  text-decoration: none;
+}
+
+
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -76,8 +95,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #a5325b;
-  border-color: #a5325b; }
+  background-color: #808080;
+  border-color: #707070; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -269,4 +288,46 @@ body > footer {
 body > header {
 	min-height: 170px;
 }
+}
+
+p {
+}
+
+p.note {
+     -moz-border-radius: 6px;
+     -webkit-border-radius: 6px;
+     background-color: #92bf2c33;
+     border: solid 2px #92bf2c;
+     border-radius: 6px;
+     line-height: 18px;
+     text-align: center;
+     mc-auto-number-format: '{b}Note: {/b}';
+     overflow: hidden;
+     padding: 14px;
+}
+
+p.note2 {
+     -moz-border-radius: 6px;
+     -webkit-border-radius: 6px;
+     background-color: #c2bf2c33;
+     border: solid 2px #c2bf2c;
+     border-radius: 6px;
+     line-height: 18px;
+     text-align: center;
+     mc-auto-number-format: '{b}Note: {/b}';
+     overflow: hidden;
+     padding: 14px;
+}
+
+.title {
+    color: #333;
+    font-weight: bold;
+}
+
+ul {
+    margin: 20px;
+}
+
+li {
+    margin-left: 30px;
 }
