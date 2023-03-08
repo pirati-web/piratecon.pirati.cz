@@ -64,7 +64,15 @@ a.yellowlink {
   color: #b09000;
   text-decoration: none;
 }
-a.blacklink:hover {
+a.yellowlink:hover {
+  color: #606060;
+  text-decoration: none;
+}
+a.brownlink {
+  color: #805000;
+  text-decoration: none;
+}
+a.brownlink:hover {
   color: #606060;
   text-decoration: none;
 }
@@ -311,6 +319,19 @@ p.note2 {
      -webkit-border-radius: 6px;
      background-color: #c2bf2c33;
      border: solid 2px #c2bf2c;
+     border-radius: 6px;
+     line-height: 18px;
+     text-align: center;
+     mc-auto-number-format: '{b}Note: {/b}';
+     overflow: hidden;
+     padding: 14px;
+}
+
+p.note3 {
+     -moz-border-radius: 6px;
+     -webkit-border-radius: 6px;
+     background-color: #826f0c33;
+     border: solid 2px #826f0c;
      border-radius: 6px;
      line-height: 18px;
      text-align: center;
